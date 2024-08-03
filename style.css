@@ -1,0 +1,17 @@
+/* src/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.test{
+	background-color: aliceblue;
+}
+
+.numeric-fc462{
+	left: -14px
+}
+
+.alpha-d2270{
+	bottom: -20px;
+}

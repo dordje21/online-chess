@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    {{> head}}
+</head>
+
+<body class='bg-gray-900'>
+    <div class='w-full px-4'>
+
+        <div class="text-white flex justify-center py-4 font-bold">
+            Status: <div id="status" class="px-2"></div>
+        </div>
+
+        <div id="myBoard" class="w-full max-w-[500px] m-auto"></div>
+
+        <div class="text-white flex justify-center py-4 mt-4 font-bold">
+            PGN: <div id="pgn"></div>
+        </div>
+
+    </div>
+    <script>
+        let playerColor = '{{color}}'
+        console.log('Playing as ' + playerColor);
+    </script>
+
+    <script src="/public/js/index.js"></script>
+
+</body>
+
+</html>
